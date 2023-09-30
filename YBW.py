@@ -64,7 +64,7 @@ class Ui_MainWindow(object):
         self.image = QtWidgets.QLabel(self.centralwidget)
         self.image.setGeometry(QtCore.QRect(30, 80, 340, 140))
         self.image.setObjectName("image")
-        self.image.setPixmap(QPixmap('D:\\PyCharm\\YBW\\YBW.jpg'))
+        self.image.setPixmap(QPixmap('./YBW.jpg'))
 
         #베팅선택
         self.bet1 = QtWidgets.QPushButton(self.centralwidget)
